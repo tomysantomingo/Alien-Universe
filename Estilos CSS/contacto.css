@@ -1,0 +1,25 @@
+.redes {
+    list-style: none;
+    padding: 0;
+
+    li {
+        margin: 10px 0;
+    }
+
+    /*TEXTO*/
+    a {
+        text-decoration: none;
+        color: #aef;
+        font-size: 2.5rem;
+        display: flex;
+        align-items: center;
+    }
+    
+    /*ICONO*/
+    i {
+        margin-right: 10px;
+        font-size: 3.5rem;
+        color: #fff;
+    }
+
+}

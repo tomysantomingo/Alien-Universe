@@ -1,0 +1,15 @@
+
+/*TARJETAS*/
+.tarjeta {
+
+    width: 45%;
+    background-color: lightslategray;
+    display: inline-block;
+    margin: 1%;
+    
+    p {
+        padding: 20px;
+        margin: 0;
+    }
+
+}
