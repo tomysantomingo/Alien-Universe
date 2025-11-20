@@ -1,0 +1,211 @@
+/* TEXTO 1:
+.righteous-regular {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}*/
+
+/* TEXTO 2:
+.bowlby-one-sc-regular {
+  font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*NOMBRE DE LA PAGINA*/
+@font-face {
+    font-family: 'alien';
+    src: url(../TEXTO/Aliens\ Among\ Us.ttf) format(truetype);
+}
+
+.nombre {
+    color: #faad25;
+    font-size: 4rem;
+    text-shadow: -8px 8px 8px #442c01;
+    padding: 10px 0px 30px 0px;
+
+    /*TEXTO 2 */
+    font-family: 'alien';
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul,
+ol {
+    display: inline-block;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+
+    /*TEXTO 1*/
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/*CUERPO DE PAGINA*/
+body {
+    background-color: #111111;
+    text-align: center;
+    /*padding: 2%;*/
+    margin: 0;
+    font-size: 1.5rem;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    /*TEXTO*/
+    font-family: "Bowlby One SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* EMPIEZO A DISEÑAR EL HEADER */
+
+.header {
+    background-color: #0a0a0a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    width: 100%;
+}
+
+/* LOGO */
+.header .logo {
+    cursor: pointer;
+}
+
+
+.header .logo img {
+    height: 70px;
+    width: auto;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.header .logo img:hover {
+    transform: scale(1.1);
+}
+
+
+/* MENÚ DE NAVEGACIÓN*/
+.header .menu {
+    list-style: none;
+    display: flex;
+}
+
+.header .menu li {
+    padding: 0px 20px;
+}
+
+.header .menu a {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: aliceblue;
+    text-decoration: none;
+
+    transition: color 0.3s ease-in-out, transform 0.2s;
+
+    padding: 8px 15px;
+    border: 2px solid aliceblue;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+
+.header .menu li a:hover {
+    color: #111111;
+    background-color: #faad25;
+    transform: translateY(-2px);
+}
+
+/* HASTA ACA HEADER  */
+
+main {
+    text-align: center;
+    flex: auto;
+    margin-top: 0px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 0px;
+}
+
+
+h2 {
+    padding: 25px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    color: #84b6f4;
+
+}
+
+h3 {
+
+    color: #faad25;
+
+    /*TEXTO 2*/
+    padding: 10px;
+    font-family: "Bowlby One SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+p {
+    color: rgb(255, 255, 255);
+
+    /*TEXTO 1*/
+    padding: 10px;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* EMPIEZO A DISEÑAR FOOTER */
+
+.main-footer {
+    background-color: #0a0a0a;
+    color: #ffffff;
+    padding: 1.5rem 0;
+    text-align: center;
+
+    margin-top: auto;
+    font-size: 1.5rem;
+    font-family: "Righteous", sans-serif;
+}
+
+.main-footer p {
+    margin: 0.5rem 0;
+    color: #ffffff;
+}
+
+
+.btn-volver-arriba {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #faad25;
+    color: #111111;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+}
+
+.btn-volver-arriba:hover {
+    background-color: #704700;
+    transform: translateY(-2px);
+}
+

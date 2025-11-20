@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*contenedor*/
+.formulario-contacto {
+    margin-top: 2rem;
+}
+
+.campo {
+    margin-bottom: 2rem;
+}
+
+.campo label {
+    display: block; 
+    font-family: 'Bowlby One SC', sans-serif;
+    color: #79C6DB; /* Color cian */
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/*Inputs y Textarea*/
+.campo input:not([type="submit"]),
+.campo textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #0d0d0d; 
+    color: #e0e0e0; 
+    font-family: 'Righteous', sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box; 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.campo input:focus,
+.campo textarea:focus {
+    outline: none; 
+    border-color: #faad25; 
+    box-shadow: 0 0 8px rgba(250, 173, 37, 0.5); 
+}
+
+.campo textarea {
+    resize: vertical; 
+    min-height: 150px;
+}
+
+/*Botón de Enviar */
+.btn-enviar {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #faad25; 
+    color: #0d0d0d; 
+    font-family: 'Bowlby One SC', sans-serif;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-enviar:hover {
+    background-color: #ffc452; 
+    transform: translateY(-2px);
+}
+
+.grupo-flex {
+    display: flex;
+    gap: 30px; 
+}
+
+.grupo-flex .campo {
+    flex: 1; 
+}
+
+/* Redes Sociales (Articulo separado)*/
+.redes-sociales {
+    margin-top: 4rem;
+    padding: 2.5rem;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    border: 1px solid #333;
+}
+
+.redes-sociales h2 {
+    color: #faad25;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.redes-sociales p {
+    color: #e0e0e0;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Righteous', sans-serif;
+}
+
+.lista-redes {
+    list-style: none;
+    padding: 0;
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.lista-redes li a {
+    display: block;
+    padding: 12px 20px;
+    background-color: #333;
+    color: #84b6f4;
+    text-decoration: none;
+    font-family: 'Righteous', sans-serif;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    border: 1px solid #84b6f4;
+}
+
+.lista-redes li a:hover {
+    background-color: #84b6f4;
+    color: #0d0d0d;
+}

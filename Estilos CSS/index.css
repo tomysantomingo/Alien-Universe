@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.portada-index {
+    max-width: 600px;
+    margin: 3rem auto;
+    display: block;
+    text-align: center;
+
+    background-color: #1a1a1a;
+    border: 3px solid #84b6f4;
+
+    border-radius: 8px;
+    overflow: hidden;
+
+    box-shadow: 0 0 15px rgba(121, 198, 219, 0.6);
+    padding: 10px;
+}
+
+
+.portada-index img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.portada-index figcaption {
+    font-family: 'Righteous', sans-serif;
+    color: #ffffff;
+    padding: 0.8rem 0;
+    background-color: transparent;
+    font-size: 1.5rem;
+}

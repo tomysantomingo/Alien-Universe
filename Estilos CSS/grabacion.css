@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cajaTarjetas {
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    gap: 40px;
+    padding: 2rem 5%;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+
+.tarjeta {
+
+    width: 400px;
+    min-width: 300px;
+
+    text-align: center;
+    background-color: #0d0d0d;
+    border: 1px solid #84b6f4;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(250, 173, 37, 0.5);
+}
+
+
+.tarjeta img {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 1rem 1rem 0;
+}
+
+
+.tarjeta figcaption {
+    padding: 1rem;
+    font-family: "Bowlby One SC", sans-serif;
+    color: #ffffff;
+    font-size: 1.15rem;
+    font-style: normal;
+
+}
