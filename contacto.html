@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Aliens Universe</title>
+    <link rel="stylesheet" href="./Estilos CSS/global.css">
+    <link rel="stylesheet" href="./Estilos CSS/contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Righteous&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header" id="arriba">
+
+        <div class="logo">
+            <a href="./index.html"><img src="./IMG/logo 4.png" alt="logo"></a>
+        </div>
+
+        <nav>
+            <ul class="menu">
+                <li> <a href="./sinopsis.html"> SOBRE LA PELICULA </a> </li>
+                <li> <a href="./reparto.html"> REPARTO </a> </li>
+                <li> <a href="./grabacion.html"> PRODUCCIÓN Y ESTUDIO DE GRABACCIÓN </a> </li>
+                <li> <a href="./curiosidades.html"> CURIOSIDADES Y PREMIOS </a> </li>
+                <li> <a href="./contacto.html"> CONTACTO </a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="contenedor-principal">
+
+            <article>
+                <h2>¡Déjanos un mensaje!</h2>
+                <p>
+                    Si tienes alguna pregunta sobre la película, sugerencias para el sitio web o
+                    simplemente quieres compartir tu fascinación por el universo Alien,
+                    usa el formulario a continuación.
+                </p>
+
+                <form action="./confirmacion.html" method="get" class="formulario-contacto">
+
+                    <div class="grupo-flex">
+
+                        <div class="campo">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre (Requerido)"
+                                maxlength="50">
+                        </div>
+
+                        <div class="campo">
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" id="apellido" name="apellido" required
+                                placeholder="Tu apellido (Requerido)" maxlength="50">
+                        </div>
+
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required
+                            placeholder="ejemplo@correo.com (Requerido)">
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensaje">Tu Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" required
+                            placeholder="Escribe aquí tu consulta... (Requerido)" rows="8"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-enviar">ENVIAR COMUNICACIÓN</button>
+
+                </form>
+            </article>
+
+            <article class="redes-sociales">
+                <h2>¡Síguenos en la Web!</h2>
+                <p>Para discusiones y novedades, visita nuestras comunidades:</p>
+                <ul class="lista-redes">
+                    <li>
+                        <a href="https://www.facebook.com/groups/594532837265674" target="_blank">
+                            <span class="icon-text">Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.reddit.com/r/LV426" target="_blank">
+                            <span class="icon-text">Reddit (LV-426)</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://alien-covenant.com" target="_blank">
+                            <span class="icon-text">Foro Oficial</span>
+                        </a>
+                    </li>
+                </ul>
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <p><a href="#arriba" class="btn-volver-arriba">Volver Arriba</a></p>
+        <p>Copyright - <strong>Aliens Universe</strong></p>
+        <p>Todos los derechos reservados.</p>
+    </footer>
+
+
+</body>
+
+</html>
